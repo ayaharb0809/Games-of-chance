@@ -58,9 +58,9 @@ def roulette(guess, bid):
     return (0 - bid)
 #Call your game of chance functions here
 money += coinflip(220, 2)
-print("You have " + str(money) + " after the coin flip.")
+print("You have " + str(money) + " after the coin flip game.")
 money += chohan(even, 100)    
-print("You have " + str(money) + " after cho han.")
+print("You have " + str(money) + " after the cho han game.")
 money += cards (60)
 print("You have " + str(money) + " after picking a card.")
 money += roulette(even, 50)
